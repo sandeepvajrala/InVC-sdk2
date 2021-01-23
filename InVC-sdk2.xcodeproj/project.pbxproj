@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3620AFC93AC8919308E0691F /* Pods_InVC_sdk2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDBE42CBF88E45803E7DF6 /* Pods_InVC_sdk2.framework */; };
+		46DD2D8425BBE54E0026C70A /* InVC_sdk2.h in Headers */ = {isa = PBXBuildFile; fileRef = 46DD2D8225BBE54E0026C70A /* InVC_sdk2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46DD2D9425BBEDC50026C70A /* RTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD2D8F25BBEDC50026C70A /* RTCClient.swift */; };
+		46DD2D9525BBEDC50026C70A /* RTCCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD2D9025BBEDC50026C70A /* RTCCapturer.swift */; };
+		46DD2D9625BBEDC50026C70A /* AVCaptureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD2D9125BBEDC50026C70A /* AVCaptureState.swift */; };
+		46DD2D9725BBEDC50026C70A /* RTCCapturerSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD2D9225BBEDC50026C70A /* RTCCapturerSettingsModel.swift */; };
+		46DD2D9825BBEDC50026C70A /* RTCSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD2D9325BBEDC50026C70A /* RTCSettingsStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E409D313601181691311108 /* Pods-InVC-sdk2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVC-sdk2.debug.xcconfig"; path = "Target Support Files/Pods-InVC-sdk2/Pods-InVC-sdk2.debug.xcconfig"; sourceTree = "<group>"; };
+		46DD2D7F25BBE54E0026C70A /* InVC_sdk2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InVC_sdk2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DD2D8225BBE54E0026C70A /* InVC_sdk2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InVC_sdk2.h; sourceTree = "<group>"; };
+		46DD2D8325BBE54E0026C70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DD2D8F25BBEDC50026C70A /* RTCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCClient.swift; sourceTree = "<group>"; };
+		46DD2D9025BBEDC50026C70A /* RTCCapturer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCCapturer.swift; sourceTree = "<group>"; };
+		46DD2D9125BBEDC50026C70A /* AVCaptureState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCaptureState.swift; sourceTree = "<group>"; };
+		46DD2D9225BBEDC50026C70A /* RTCCapturerSettingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCCapturerSettingsModel.swift; sourceTree = "<group>"; };
+		46DD2D9325BBEDC50026C70A /* RTCSettingsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCSettingsStore.swift; sourceTree = "<group>"; };
+		BBD5AB6630E2CF5A88ED532F /* Pods-InVC-sdk2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InVC-sdk2.release.xcconfig"; path = "Target Support Files/Pods-InVC-sdk2/Pods-InVC-sdk2.release.xcconfig"; sourceTree = "<group>"; };
+		F7CDBE42CBF88E45803E7DF6 /* Pods_InVC_sdk2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InVC_sdk2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46DD2D7C25BBE54E0026C70A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3620AFC93AC8919308E0691F /* Pods_InVC_sdk2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46DD2D7525BBE54E0026C70A = {
+			isa = PBXGroup;
+			children = (
+				46DD2D8125BBE54E0026C70A /* InVC-sdk2 */,
+				46DD2D8025BBE54E0026C70A /* Products */,
+				D0AD83FF2FD6CD93F04A6094 /* Pods */,
+				4753285A9A54AEBFCA00E120 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46DD2D8025BBE54E0026C70A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46DD2D7F25BBE54E0026C70A /* InVC_sdk2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46DD2D8125BBE54E0026C70A /* InVC-sdk2 */ = {
+			isa = PBXGroup;
+			children = (
+				46DD2D8225BBE54E0026C70A /* InVC_sdk2.h */,
+				46DD2D8325BBE54E0026C70A /* Info.plist */,
+				46DD2D9125BBEDC50026C70A /* AVCaptureState.swift */,
+				46DD2D9025BBEDC50026C70A /* RTCCapturer.swift */,
+				46DD2D9225BBEDC50026C70A /* RTCCapturerSettingsModel.swift */,
+				46DD2D8F25BBEDC50026C70A /* RTCClient.swift */,
+				46DD2D9325BBEDC50026C70A /* RTCSettingsStore.swift */,
+			);
+			path = "InVC-sdk2";
+			sourceTree = "<group>";
+		};
+		4753285A9A54AEBFCA00E120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7CDBE42CBF88E45803E7DF6 /* Pods_InVC_sdk2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0AD83FF2FD6CD93F04A6094 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E409D313601181691311108 /* Pods-InVC-sdk2.debug.xcconfig */,
+				BBD5AB6630E2CF5A88ED532F /* Pods-InVC-sdk2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46DD2D7A25BBE54E0026C70A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DD2D8425BBE54E0026C70A /* InVC_sdk2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46DD2D7E25BBE54E0026C70A /* InVC-sdk2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DD2D8725BBE54E0026C70A /* Build configuration list for PBXNativeTarget "InVC-sdk2" */;
+			buildPhases = (
+				CE82996EB43326D67097198F /* [CP] Check Pods Manifest.lock */,
+				46DD2D7A25BBE54E0026C70A /* Headers */,
+				46DD2D7B25BBE54E0026C70A /* Sources */,
+				46DD2D7C25BBE54E0026C70A /* Frameworks */,
+				46DD2D7D25BBE54E0026C70A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InVC-sdk2";
+			productName = "InVC-sdk2";
+			productReference = 46DD2D7F25BBE54E0026C70A /* InVC_sdk2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46DD2D7625BBE54E0026C70A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					46DD2D7E25BBE54E0026C70A = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = 46DD2D7925BBE54E0026C70A /* Build configuration list for PBXProject "InVC-sdk2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46DD2D7525BBE54E0026C70A;
+			productRefGroup = 46DD2D8025BBE54E0026C70A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46DD2D7E25BBE54E0026C70A /* InVC-sdk2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46DD2D7D25BBE54E0026C70A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE82996EB43326D67097198F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InVC-sdk2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46DD2D7B25BBE54E0026C70A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DD2D9425BBEDC50026C70A /* RTCClient.swift in Sources */,
+				46DD2D9825BBEDC50026C70A /* RTCSettingsStore.swift in Sources */,
+				46DD2D9525BBEDC50026C70A /* RTCCapturer.swift in Sources */,
+				46DD2D9725BBEDC50026C70A /* RTCCapturerSettingsModel.swift in Sources */,
+				46DD2D9625BBEDC50026C70A /* AVCaptureState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46DD2D8525BBE54E0026C70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46DD2D8625BBE54E0026C70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46DD2D8825BBE54E0026C70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E409D313601181691311108 /* Pods-InVC-sdk2.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NN4FAH5SZT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "InVC-sdk2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peoplelink..InVC-sdk2";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46DD2D8925BBE54E0026C70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD5AB6630E2CF5A88ED532F /* Pods-InVC-sdk2.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NN4FAH5SZT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "InVC-sdk2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peoplelink..InVC-sdk2";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46DD2D7925BBE54E0026C70A /* Build configuration list for PBXProject "InVC-sdk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DD2D8525BBE54E0026C70A /* Debug */,
+				46DD2D8625BBE54E0026C70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46DD2D8725BBE54E0026C70A /* Build configuration list for PBXNativeTarget "InVC-sdk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DD2D8825BBE54E0026C70A /* Debug */,
+				46DD2D8925BBE54E0026C70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46DD2D7625BBE54E0026C70A /* Project object */;
+}
